@@ -4,7 +4,7 @@ Aplicación de escritorio para Windows que permite cargar, explorar, filtrar, de
 
 ## Descargar
 
-[Descargar Analizador Ejecutivo Local 0.3.0 para Windows](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.3.0/Analizador-Ejecutivo-Local-Setup-0.3.0.exe)
+[Descargar Analizador Ejecutivo Local 0.3.1 para Windows](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.3.1/Analizador-Ejecutivo-Local-Setup-0.3.1.exe)
 
 ## Privacidad
 
