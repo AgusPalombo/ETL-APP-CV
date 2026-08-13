@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.7/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.8/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -31,7 +31,7 @@ Todo el procesamiento se realiza en la computadora donde está instalada la apli
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.7/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.8/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -42,12 +42,14 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión actual es **0.4.7 para Windows de 64 bits**.
+La versión actual es **0.4.8 para Windows de 64 bits**.
 
-### Novedades de la versión 0.4.7
+### Novedades de la versión 0.4.8
 
-- La opción **Salir** del icono de Windows cierra EasyETL inmediatamente, sin mostrar una confirmación.
-- Se cierran la ventana dedicada, el servidor y los procesos propios, manteniendo abiertas las ventanas personales del navegador.
+- Las cargas pueden cancelarse de forma segura sin perder los archivos que ya terminaron de procesarse.
+- Los avisos de eliminación y reemplazo respetan el tema visual de EasyETL y mantienen el foco dentro del cuadro.
+- El Dashboard permite combinar indicadores y gráficos en distintos tamaños dentro de un mosaico configurable.
+- Se corrigieron deformaciones, desplazamientos laterales y espacios vacíos al mover tarjetas.
 
 ## Desinstalación
 
