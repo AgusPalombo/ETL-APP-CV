@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.8/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.9/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -19,7 +19,8 @@ EasyETL es una aplicación local para trabajar con archivos CSV, XLSX, JSON y XM
 - Renombrar columnas y reutilizar esos nombres en filtros, gráficos, dashboards y exportaciones.
 - Filtrar valores mediante listas, búsquedas, vacíos y condiciones combinables.
 - Detectar y excluir duplicados con claves elegidas por el usuario.
-- Crear indicadores, tablas y gráficos configurables.
+- Crear indicadores, gráficos y tablas dinámicas con filas, columnas y valores calculados.
+- Incorporarlos al Dashboard y reorganizarlos en un mosaico adaptable.
 - Comparar totales entre dos archivos.
 - Comparar registros y distinguir nuevos, eliminados, modificados, sin cambios y filas sin clave válida.
 - Exportar resultados en CSV separado por punto y coma.
@@ -31,7 +32,7 @@ Todo el procesamiento se realiza en la computadora donde está instalada la apli
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.8/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.9/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -42,14 +43,14 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión actual es **0.4.8 para Windows de 64 bits**.
+La versión actual es **0.4.9 para Windows de 64 bits**.
 
-### Novedades de la versión 0.4.8
+### Novedades de la versión 0.4.9
 
-- Las cargas pueden cancelarse de forma segura sin perder los archivos que ya terminaron de procesarse.
-- Los avisos de eliminación y reemplazo respetan el tema visual de EasyETL y mantienen el foco dentro del cuadro.
-- El Dashboard permite combinar indicadores y gráficos en distintos tamaños dentro de un mosaico configurable.
-- Se corrigieron deformaciones, desplazamientos laterales y espacios vacíos al mover tarjetas.
+- La nueva solapa **Tablas** permite combinar hasta tres filas, una columna dinámica y cuatro valores calculados.
+- Las tablas admiten cantidad, valores únicos, suma, promedio, mediana, mínimo y máximo.
+- Las tablas pueden guardarse, editarse y paginarse dentro del Dashboard igual que los gráficos.
+- El mosaico aprovecha todo el ancho disponible sin superposiciones ni desplazamiento global.
 
 ## Desinstalación
 
