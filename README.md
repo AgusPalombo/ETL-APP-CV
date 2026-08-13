@@ -1,10 +1,6 @@
 # EasyETL
 
 <p align="center">
-  <img src="packaging/assets/dashboard-icon.png" alt="Icono de EasyETL" width="150">
-</p>
-
-<p align="center">
   <strong>Prepará, compará y entendé archivos de datos sin subir información a internet.</strong>
 </p>
 
