@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.10.3/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.11/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -32,7 +32,7 @@ Todo el procesamiento se realiza en la computadora donde está instalada la apli
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.10.3/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.11/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -43,7 +43,15 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión actual es **0.4.10.3 para Windows de 64 bits**.
+La versión actual es **0.4.11 para Windows de 64 bits**.
+
+### Novedades de la versión 0.4.11
+
+- El Dashboard aprovecha todo el ancho disponible sin invadir menús ni generar desplazamiento horizontal global.
+- EasyETL calcula automáticamente el tamaño y la posición de indicadores, gráficos y tablas.
+- Los componentes se compactan en páginas y se redistribuyen al reordenarlos mediante mouse, tacto o teclado.
+- Los dashboards existentes se actualizan sin perder sus componentes ni su orden.
+- Los títulos, valores y gráficos se adaptan mejor a pantallas grandes, tablets y móviles.
 
 ### Corrección 0.4.10.3
 
