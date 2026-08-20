@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.0.1/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.0.2/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -34,7 +34,7 @@ Todo el procesamiento se realiza en la computadora donde está instalada la apli
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.0.1/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.0.2/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -45,7 +45,15 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión actual es **0.5.0.1 para Windows de 64 bits**.
+La versión actual es **0.5.0.2 para Windows de 64 bits**.
+
+### Corrección 0.5.0.2
+
+- `Número entero` detecta el formato original, redondea explícitamente y avisa cuántos valores cambiarán.
+- El formato regional se elige únicamente para `Número decimal`, con ejemplos claros de coma y punto decimal.
+- El editor de nombres y tipos presenta mejor el origen, el tipo detectado y el estado de cada columna.
+- Los desplegables son compactos, buscables y desplazables, y permanecen dentro de la pantalla.
+- Las preparaciones existentes siguen siendo compatibles y los archivos originales nunca se modifican.
 
 ### Corrección 0.5.0.1
 
