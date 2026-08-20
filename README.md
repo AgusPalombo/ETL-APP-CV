@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.14/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.0/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -24,7 +24,9 @@ EasyETL es una aplicación local para trabajar con archivos CSV, XLSX, JSON y XM
 - Comparar totales entre dos archivos.
 - Comparar registros y distinguir nuevos, eliminados, modificados, sin cambios y filas sin clave válida.
 - Exportar resultados en CSV separado por punto y coma.
-- Guardar e importar recetas de preparación.
+- Preparar datos con filtros, cambios de nombre y tipo, columnas calculadas y eliminación reversible de columnas.
+- Guardar e importar recetas de preparación reutilizables.
+- Activar una licencia local vinculada al equipo, sin enviar datos por Internet.
 
 ## Privacidad
 
@@ -32,7 +34,7 @@ Todo el procesamiento se realiza en la computadora donde está instalada la apli
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.4.14/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.0/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -43,7 +45,16 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión actual es **0.4.14 para Windows de 64 bits**.
+La versión actual es **0.5.0 para Windows de 64 bits**.
+
+### Novedades de la versión 0.5.0
+
+- Nueva sección **Preparar datos** para concentrar filtros y cambios estructurales sin modificar el archivo original.
+- Creación de columnas mediante texto fijo, combinación, cálculos, diferencias entre fechas y reglas de clasificación.
+- Renombrado, conversión de tipos y eliminación reversible de columnas con vista previa y aplicación segura.
+- **Explorar datos** queda como una tabla limpia y de sólo lectura sobre el resultado preparado.
+- Recetas versión 3 para reutilizar la preparación completa sin incluir registros ni información sensible.
+- Licencia offline vinculada al equipo, con 30 días de gracia y activación mediante archivo local.
 
 ### Novedades de la versión 0.4.14
 
