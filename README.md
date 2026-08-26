@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.1.1/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.2/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -38,7 +38,7 @@ Todo el procesamiento se realiza en la computadora donde está instalada la apli
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.1.1/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.2/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -49,7 +49,7 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión publicada es **0.5.1.1 para Windows de 64 bits**.
+La versión publicada es **0.5.2 para Windows de 64 bits**.
 
 ## Calidad de desarrollo
 
@@ -64,6 +64,14 @@ Para preparar una clonación y ejecutar los controles:
 ```
 
 El modo `Release` es el único flujo autorizado para generar el instalador. La guía completa está en [docs/engineering/QUALITY_HARNESS.md](docs/engineering/QUALITY_HARNESS.md) y la deuda histórica controlada en [docs/engineering/TECHNICAL_DEBT_BASELINE.md](docs/engineering/TECHNICAL_DEBT_BASELINE.md).
+
+### Novedades de la versión 0.5.2
+
+- Las tablas dinámicas mantienen el panel de configuración y el resultado dentro de una misma altura útil, con desplazamiento vertical y horizontal contenido en la grilla.
+- Cada encabezado dimensional abre un filtro tipo Excel con búsqueda paginada, selección, exclusión y frecuencias calculadas sobre todos los grupos elegibles.
+- Los filtros de medidas se presentan como tarjetas compactas fuera de la tabla y actualizan automáticamente el último resultado generado.
+- El resumen distingue filtros generales, filtros de columnas y filtros de medidas, y permite quitar cada filtro de columna de forma independiente.
+- Los valores contextuales respetan los demás filtros y las medidas, incluso cuando están fuera de la página o del Top N visible.
 
 ### Corrección 0.5.1.1
 
