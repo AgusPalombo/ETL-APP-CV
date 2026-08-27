@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.5/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.6/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -39,7 +39,7 @@ Todo el procesamiento se realiza en la computadora donde está instalada la apli
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.5/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.6/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -50,7 +50,7 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión publicada es **0.5.5 para Windows de 64 bits**.
+La versión publicada es **0.5.6 para Windows de 64 bits**.
 
 ## Calidad de desarrollo
 
@@ -65,6 +65,13 @@ Para preparar una clonación y ejecutar los controles:
 ```
 
 El modo `Release` es el único flujo autorizado para generar el instalador. La guía completa está en [docs/engineering/QUALITY_HARNESS.md](docs/engineering/QUALITY_HARNESS.md) y la deuda histórica controlada en [docs/engineering/TECHNICAL_DEBT_BASELINE.md](docs/engineering/TECHNICAL_DEBT_BASELINE.md).
+
+### Novedades de la versión 0.5.6
+
+- Los indicadores del informe HTML se agrupan al comienzo de cada página, con hasta cuatro tarjetas por fila.
+- La grilla de indicadores se adapta a cuatro columnas en escritorio e impresión, dos en tablet y una en móvil.
+- Los gráficos y las tablas ocupan todo el ancho disponible y se muestran uno por fila.
+- Se mantienen intactos los cálculos, filtros, totales y el carácter autocontenido del informe.
 
 ### Novedades de la versión 0.5.5
 
