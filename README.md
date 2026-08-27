@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.4/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.5/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -27,6 +27,7 @@ EasyETL es una aplicación local para trabajar con archivos CSV, XLSX, JSON y XM
 - Detectar y excluir duplicados con claves elegidas por el usuario.
 - Crear indicadores, gráficos y tablas dinámicas con filas, columnas y valores calculados.
 - Incorporarlos al Dashboard y reorganizarlos en un mosaico adaptable.
+- Exportar e importar plantillas de Dashboard sin transportar datos y generar informes HTML autocontenidos.
 - Comparar totales entre dos archivos.
 - Comparar registros y distinguir nuevos, eliminados, modificados, sin cambios y filas sin clave válida.
 - Exportar resultados en CSV separado por punto y coma.
@@ -38,7 +39,7 @@ Todo el procesamiento se realiza en la computadora donde está instalada la apli
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.4/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.5.5/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -49,7 +50,7 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión publicada es **0.5.4 para Windows de 64 bits**.
+La versión publicada es **0.5.5 para Windows de 64 bits**.
 
 ## Calidad de desarrollo
 
@@ -64,6 +65,14 @@ Para preparar una clonación y ejecutar los controles:
 ```
 
 El modo `Release` es el único flujo autorizado para generar el instalador. La guía completa está en [docs/engineering/QUALITY_HARNESS.md](docs/engineering/QUALITY_HARNESS.md) y la deuda histórica controlada en [docs/engineering/TECHNICAL_DEBT_BASELINE.md](docs/engineering/TECHNICAL_DEBT_BASELINE.md).
+
+### Novedades de la versión 0.5.5
+
+- Acciones del Dashboard reúne la plantilla ejecutiva, exportación, importación e informe HTML.
+- Las plantillas trasladan indicadores, gráficos, tablas, filtros propios y disposición sin incluir archivos, filas, resultados ni filtros generales.
+- La importación valida compatibilidad y permite mapear columnas de forma asistida antes de confirmar el reemplazo.
+- El informe HTML incluye todas las páginas, KPI, gráficos accesibles y hasta 100 filas agregadas por tabla.
+- El informe es estático, autocontenido, imprimible y no utiliza JavaScript ni recursos externos.
 
 ### Novedades de la versión 0.5.4
 
