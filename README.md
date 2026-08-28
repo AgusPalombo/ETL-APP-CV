@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.6.1/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.7.0/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -35,11 +35,11 @@ EasyETL es una aplicación local para trabajar con archivos CSV, XLSX, JSON y XM
 
 ## Privacidad
 
-Todo el procesamiento se realiza en la computadora donde está instalada la aplicación. Los archivos y resultados no se envían a servidores públicos. EasyETL trabaja sobre copias locales derivadas y nunca modifica el archivo original.
+Todo el procesamiento se realiza en la computadora donde está instalada la aplicación. Los archivos y resultados no se envían al servicio de activación. Durante el primer canje se transmiten únicamente la licencia firmada e identificadores técnicos seudonimizados del equipo y la instalación. EasyETL trabaja sobre copias locales derivadas y nunca modifica el archivo original.
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.6.1/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.7.0/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -50,7 +50,7 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión publicada es **0.6.1 para Windows de 64 bits**.
+La versión publicada es **0.7.0 para Windows de 64 bits**.
 
 ## Calidad de desarrollo
 
@@ -65,6 +65,15 @@ Para preparar una clonación y ejecutar los controles:
 ```
 
 El modo `Release` es el único flujo autorizado para generar el instalador. La guía completa está en [docs/engineering/QUALITY_HARNESS.md](docs/engineering/QUALITY_HARNESS.md) y la deuda histórica controlada en [docs/engineering/TECHNICAL_DEBT_BASELINE.md](docs/engineering/TECHNICAL_DEBT_BASELINE.md).
+
+### Novedades de la versión 0.7.0
+
+- Cada licencia temporal se vincula al equipo y puede activarse una sola vez.
+- La primera activación requiere Internet para validar firma, equipo y vigencia mediante la hora segura del servicio.
+- Después del canje, EasyETL funciona sin conexión hasta el vencimiento firmado de la licencia.
+- El comprobante y el control horario se protegen mediante Windows DPAPI; copiar el archivo a otra instalación no la habilita.
+- Las actualizaciones conservan la activación. Reinstalar eliminando Windows o los datos protegidos requiere una licencia nueva.
+- El servicio de activación no recibe archivos, filas, resultados ni métricas de uso.
 
 ### Novedades de la versión 0.6.1
 
