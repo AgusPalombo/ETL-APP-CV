@@ -269,13 +269,3 @@ El modo `Release` es el único flujo autorizado para generar el instalador. La g
 ## Desinstalación
 
 Podés desinstalar EasyETL desde **Configuración → Aplicaciones → Aplicaciones instaladas**. Durante la desinstalación se consulta si también querés borrar los archivos procesados y configuraciones locales.
-
-## Mantenimiento de este README
-
-Para una versión futura:
-
-1. Cambiá el número de versión visible.
-2. Actualizá las dos direcciones de descarga con la nueva etiqueta de versión.
-3. Conservá el nombre público EasyETL-Setup.exe.
-4. Agregá o quitá funciones únicamente cuando estén disponibles en el instalador publicado.
-5. Evitá incluir estructura interna, código fuente, pendientes técnicos o información sensible.
