@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.7.0/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
+  <a href="https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.7.4/EasyETL-Setup.exe"><strong>Descargar EasyETL para Windows</strong></a>
 </p>
 
 ## Qué permite hacer
@@ -39,7 +39,7 @@ Todo el procesamiento se realiza en la computadora donde está instalada la apli
 
 ## Instalación
 
-1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.7.0/EasyETL-Setup.exe).
+1. Descargá [EasyETL-Setup.exe](https://github.com/AgusPalombo/ETL-APP-CV/releases/download/v0.7.4/EasyETL-Setup.exe).
 2. Abrí el instalador.
 3. Elegí si querés crear el acceso directo en el escritorio.
 4. Finalizá la instalación y abrí **EasyETL**.
@@ -50,7 +50,7 @@ Windows puede mostrar una advertencia mientras el instalador no tenga una firma 
 
 EasyETL puede buscar nuevas versiones al iniciarse. La actualización es opcional: si la aceptás, descarga el instalador publicado, valida su integridad y reemplaza la versión anterior conservando los datos locales.
 
-La versión publicada es **0.7.0 para Windows de 64 bits**.
+La versión publicada es **0.7.4 para Windows de 64 bits**.
 
 ## Calidad de desarrollo
 
@@ -65,6 +65,14 @@ Para preparar una clonación y ejecutar los controles:
 ```
 
 El modo `Release` es el único flujo autorizado para generar el instalador. La guía completa está en [docs/engineering/QUALITY_HARNESS.md](docs/engineering/QUALITY_HARNESS.md) y la deuda histórica controlada en [docs/engineering/TECHNICAL_DEBT_BASELINE.md](docs/engineering/TECHNICAL_DEBT_BASELINE.md).
+
+### Novedades de la versión 0.7.4
+
+- Los errores de carga pueden exportarse como diagnósticos TXT seguros y el informe HTML evita descargas parciales cuando falla un componente.
+- Los gráficos admiten filtros privados previos al cálculo y los muestran también en su trazabilidad técnica.
+- Las recetas se adaptan a columnas y tipos cambiados mediante coincidencias seguras, mapeos obligatorios y una previsualización antes de aplicar.
+- Los desplegables y paneles de Gráficos y Tablas ofrecen una interfaz más amplia, clara y adaptable.
+- Cada CSV permite elegir codificación y separador antes de transferirse, y corregir errores recuperables sin cargar otra vez el archivo.
 
 ### Novedades de la versión 0.7.0
 
